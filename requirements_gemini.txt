@@ -1,0 +1,69 @@
+# AI-Powered Receipt OCR System v2.1 (Gemini) - Requirements
+# ===========================================================
+
+# Core dependencies
+numpy>=1.21.0,<2.0.0
+Pillow>=9.0.0
+
+# Web Application Framework
+streamlit>=1.28.0
+
+# Data Analysis & Visualization
+pandas>=1.5.0
+plotly>=5.18.0
+
+# AI/ML - Google Gemini Vision API
+google-generativeai>=0.3.0
+
+# =============================================================================
+# SETUP INSTRUCTIONS
+# =============================================================================
+#
+# 1. Install dependencies:
+#    pip install -r requirements_gemini.txt
+#
+# 2. Get your FREE Google AI API key:
+#    - Go to: https://aistudio.google.com/apikey
+#    - Sign in with Google
+#    - Click "Create API Key"
+#    - Copy the key (starts with AIza...)
+#
+# 3. Set your API key:
+#    
+#    Option A - Environment variable (recommended):
+#      Windows:   set GOOGLE_API_KEY=AIza...your-key-here
+#      Linux/Mac: export GOOGLE_API_KEY=AIza...your-key-here
+#    
+#    Option B - Enter in the app sidebar
+#
+# 4. Run the app:
+#    streamlit run app_gemini.py
+#
+# =============================================================================
+# PRICING (Very Affordable!)
+# =============================================================================
+#
+# FREE TIER:
+#   - 15 requests per minute
+#   - 1,500 requests per day
+#   - 1 million tokens per month
+#   - Perfect for personal use!
+#
+# PAID TIER (if you exceed free limits):
+#   - Gemini 1.5 Flash: $0.075 per 1M input tokens
+#   - Approximately $0.0001 - $0.001 per receipt
+#   - Much cheaper than Claude or GPT-4!
+#
+# =============================================================================
+# COMPARISON: GEMINI vs CLAUDE vs GPT-4
+# =============================================================================
+#
+# | Feature          | Gemini Flash    | Claude Sonnet   | GPT-4 Vision    |
+# |------------------|-----------------|-----------------|-----------------|
+# | FREE Tier        | ✅ YES (1500/day)| ❌ No           | ❌ No           |
+# | Cost per receipt | ~$0.0001        | ~$0.01-0.03     | ~$0.01-0.05     |
+# | Accuracy         | 90%+            | 92%+            | 90%+            |
+# | Speed            | Very Fast       | Fast            | Medium          |
+# | Japanese Support | ✅ Excellent    | ✅ Excellent    | ✅ Good         |
+#
+# =============================================================================
