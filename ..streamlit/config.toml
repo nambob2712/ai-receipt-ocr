@@ -11,3 +11,4 @@ enableXsrfProtection = true
 
 [browser]
 gatherUsageStats = false
+GOOGLE_API_KEY = "AIzaSyDOaPJB_RjRbjgkUMIPwsfVPlrFHy07gS8"
